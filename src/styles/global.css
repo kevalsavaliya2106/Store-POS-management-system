@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f1f1f1;
+  }
+  /* =============================== */
+/* 🌙 DARK MODE SUPPORT (GLOBAL)  */
+/* =============================== */
+
+/* Light mode (default) */
+body {
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+  transition: background-color 0.1s ease, color 0.3s ease;
+}
+
+/* Dark mode styling */
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Tables in dark mode */
+body.dark table th,
+body.dark table td {
+  background-color: #1e1e1e;
+  color: #e2e2e2;
+  border-color: #333;
+}
+
+/* Card-style containers */
+body.dark .card {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  color: #f1f1f1;
+}
+
+/* Navbar in dark mode */
+body.dark nav {
+  background-color: #1c1c1c;
+}
+
+/* Buttons */
+body.dark button {
+  background-color: #333;
+  color: #f1f1f1;
+  border: 1px solid #666;
+}
+
+/* =============================== */
+/* 🌙 Theme Switch Overlay Fade   */
+/* =============================== */
+.theme-fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.01s ease;
+  z-index: 9999;
+}
+
+.theme-fade.active {
+  opacity: 1;
+}

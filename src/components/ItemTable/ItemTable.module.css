@@ -1,0 +1,30 @@
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #b7adad;
+}
+
+.selectedRow {
+  background-color: #d3f9d8;
+  cursor: pointer;
+}
+
+.empty {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}

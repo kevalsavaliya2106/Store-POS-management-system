@@ -1,0 +1,47 @@
+.panel {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+  }
+  
+  .inputGroup {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .lookupBtn {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .info {
+    font-size: 14px;
+    color: #333;
+  }
+
+  .redeemBtn {
+    margin-top: 10px;
+    padding: 8px 14px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
